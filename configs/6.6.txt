@@ -35,7 +35,7 @@ CONFIG_PACKAGE_ruby-yaml=y
 CONFIG_PACKAGE_unzip=y
 
 # Tailscale and its exact matching kernel dependency
-CONFIG_PACKAGE_tailscale=y
+# CONFIG_PACKAGE_tailscale=y
 
 # MediaTek proprietary Wi-Fi and hardware acceleration panels
 CONFIG_PACKAGE_luci-app-mtwifi-cfg=y
@@ -73,8 +73,8 @@ CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_usbutils=y
 
 # Per-host bandwidth statistics
-CONFIG_PACKAGE_luci-app-nlbwmon=y
-CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
+# CONFIG_PACKAGE_luci-app-nlbwmon=y
+# CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
 
 # UPnP / NAT-PMP
 CONFIG_PACKAGE_luci-app-upnp=y
